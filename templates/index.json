@@ -12,14 +12,6 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
-        "text_WcM6ML": {
-          "type": "text",
-          "name": "Year",
-          "settings": {
-            "text": "2020",
-            "text_style": "subtitle"
-          }
-        },
         "heading": {
           "type": "heading",
           "settings": {
@@ -27,10 +19,18 @@
             "heading_size": "hxl"
           }
         },
+        "text_WcM6ML": {
+          "type": "text",
+          "name": "Year",
+          "settings": {
+            "text": "Summer Sale | Up to 50% off",
+            "text_style": "subtitle"
+          }
+        },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
+            "button_label_1": "Our Collections",
             "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
@@ -40,8 +40,8 @@
         }
       },
       "block_order": [
-        "text_WcM6ML",
         "heading",
+        "text_WcM6ML",
         "button"
       ],
       "settings": {

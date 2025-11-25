@@ -12,6 +12,14 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
+        "text_WcM6ML": {
+          "type": "text",
+          "name": "Year",
+          "settings": {
+            "text": "2020",
+            "text_style": "subtitle"
+          }
+        },
         "heading": {
           "type": "heading",
           "settings": {
@@ -32,6 +40,7 @@
         }
       },
       "block_order": [
+        "text_WcM6ML",
         "heading",
         "button"
       ],
